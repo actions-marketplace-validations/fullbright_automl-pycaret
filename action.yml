@@ -1,5 +1,5 @@
-name: "PyCaret AutoML Git Action"
-description: "A simple example of AutoML created using PyCaret 2.0"
+name: "Bright Softwares AutoML with PyCaret and Git Action"
+description: "An automl for Bright Spftwares team, created using PyCaret 2.0"
 author: "Full Bright <full3right@gmail.com>"
 inputs:
   DATASET:
