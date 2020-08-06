@@ -5,11 +5,11 @@ dataset = os.environ["INPUT_DATASET"]
 target = os.environ["INPUT_TARGET"]
 usecase = os.environ["INPUT_USECASE"]
 
-print("Token INPUT_token: ", os.environ["INPUT_token"])
-print("Token GITHUB_TOKEN: ", os.environ["GITHUB_TOKEN"])
-print("Token INPUT_GITHUB_TOKEN: ", os.environ["INPUT_GITHUB_TOKEN"])
+print("Token INPUT_TOKEN: ", os.environ["INPUT_TOKEN"])
+#print("Token GITHUB_TOKEN: ", os.environ["GITHUB_TOKEN"])
+#print("Token INPUT_GITHUB_TOKEN: ", os.environ["INPUT_GITHUB_TOKEN"])
 
-dataset_path = "https://raw.githubusercontent.com/" + os.environ["GITHUB_REPOSITORY"] + "/master/" + os.environ["INPUT_DATASET"] + '.csv?token=' + os.environ["INPUT_token"]
+dataset_path = "https://raw.githubusercontent.com/" + os.environ["GITHUB_REPOSITORY"] + "/master/" + os.environ["INPUT_DATASET"] + '.csv?token=' + os.environ["INPUT_TOKEN"]
 print("Dataset path {}".format(dataset_path))
 print("Listing current files in the same directory")
 os.listdir()
