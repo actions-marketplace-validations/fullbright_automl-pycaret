@@ -27,7 +27,11 @@ for r, d, f in os.walk(path):
 
 for f in files:
     print(f)
-    
+  
+
+dataset_path = os.environ["INPUT_DATASET"] + '.csv'
+print("Dataset path 2 {}".format(dataset_path))
+
 data = pd.read_csv(dataset_path)
 data.head()
 
